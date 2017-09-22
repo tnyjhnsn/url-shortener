@@ -1,0 +1,24 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "FCC - API Projects - URL Shortener",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnyjhnsn/url-shortener.git"
+  },
+  "homepage": "https://github.com/tnyjhnsn/url-shortener#readme",
+  "bugs": "https://github.com/tnyjhnsn/url-shortener/issues",
+  "scripts": {
+    "start": "nodemon server.js index.js"
+  },
+  "author": "Tony Johnson",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "is-url": "^1.2.2",
+    "mongodb": "^2.2.31",
+    "shortid": "^2.2.8"
+  }
+}

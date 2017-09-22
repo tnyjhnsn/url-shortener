@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>URL Shortener</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h3>URL Shortener</h3>
+                <ol>
+                    <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+                    <li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+                    <li>When I visit that shortened URL, it will redirect me to my original link.</li>
+                </ol>
+            <h4>Usage</h4>
+                <code>http://www.tosp.net.au:3001/new/http://www.freecodecamp.org</code><br>
+                <code>http://www.tosp.net.au:3001/&lt;short_url&gt;</short_url></code><br>
+        </div>
+    </body>
+</html>
