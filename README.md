@@ -6,5 +6,5 @@ FCC - API Projects - URL Shortener Microservice
 * When I visit that shortened URL, it will redirect me to my original link.
 
 ### Usage
-http://www.tosp.net.au:3001/<short_url>  
 http://www.tosp.net.au:3001/new/http://www.freecodecamp.org  
+http://www.tosp.net.au:3001/<short_url>  
