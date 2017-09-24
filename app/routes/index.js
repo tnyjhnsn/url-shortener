@@ -31,10 +31,10 @@ module.exports = (app, collection) => {
 			})
 	})
 
-	app.route('/*')
+	app.route('/:shortId')
 		.get( (req, res) => {
 			collection.findOne(
-				{short_url: req.url.slice(1)},
+				{short_url: req.params.shortId},
 				(err, url) => {
 					if (err) return res.status(500).send(err)
 					if (url) {
